@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        hostname: "qph.cf2.quoracdn.net",
+      },
+    ],
+  },
+};
 
 export default nextConfig;
